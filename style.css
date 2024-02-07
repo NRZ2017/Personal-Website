@@ -1,0 +1,163 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {margin: 0; height: 100%; overflow: hidden;
+      display: flex; flex-direction: column;
+     }
+
+.suit {
+  position: relative; 
+  width: 26.042vw;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 1vh; */
+  /* transition: transform 1s ease;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-name: slideInBottom; */
+  gap: 20px;
+}
+
+/* .suit:hover {
+  transform: scale(115%);
+} */
+
+.overall {
+  display: flex;
+  height: 10vw !important;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 3vw;
+}
+
+.buttons {
+  /* float: right; */
+  display: flex;
+  font-size: 1.563vw;
+  margin-top: 1.5vw;
+  margin-right: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-name: slideInRight; */
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+
+.About_Me:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Projects:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Links:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Home:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgb(76, 161, 175), rgb(196, 224, 229));
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+}
+#AboutDesc {
+  position: absolute;
+  display: none;
+  width: 95vw;
+  font-size: 1.8vw;
+  top: 15vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#projectDesc {
+  position: absolute;
+  display: none;
+  width: 95vw;
+  font-size: 1.5vw;
+  top: 10vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ptags {
+  color: blue;
+  text-decoration: underline;
+}
+
+.info {
+  
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  top: 20vh;
+  width: 95vw;
+  align-items: center;
+  font-size: 2.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#LinkedIn {
+  text-decoration: underline;
+  color: blue;
+}
+
+#GitHub {
+  text-decoration: underline;
+  color: blue;
+}
+
+/* #main {
+  flex-grow: 1;
+  overflow-y: scroll;
+} */
+
+/* #fade {
+  width: 100vw;
+  height: 10vw;
+  top: 7.26vw;
+  position: absolute;
+  background-color: green;
+  z-index: 1000000;
+  background-image: linear-gradient(0deg, rgba(175.288,219.4262,219.6796, 0), rgb(187.288, 213.1262, 225.0796));
+} */
+
+.name {
+  text-align: left;
+  display:flex;
+  font-size: 2.604vw;
+  margin-top: 1.56vw;
+  width: 28vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-name: slideInLeft; */
+  flex-direction: row;
+  /* padding: 40px; */
+}
